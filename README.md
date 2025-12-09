@@ -18,8 +18,6 @@ Soap Laravel Subscriptions is a flexible plans and subscription management syste
 You can publish the config file with:
 
 ```bash
-php artisan vendor:publish --tag="subscriptions-config"
-```
 
 This is the contents of the published config file:
 
