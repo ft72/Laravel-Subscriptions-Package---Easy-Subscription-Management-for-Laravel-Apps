@@ -1,10 +1,4 @@
-# Subscription management package for Laravel application.
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/soap/laravel-subscriptions.svg?style=flat-square)](https://packagist.org/packages/soap/laravel-subscriptions)
-[![PHPStan](https://github.com/soap/laravel-subscriptions/actions/workflows/phpstan.yml/badge.svg)](https://github.com/soap/laravel-subscriptions/actions/workflows/phpstan.yml)
-[![run-tests](https://github.com/soap/laravel-subscriptions/actions/workflows/run-tests.yml/badge.svg)](https://github.com/soap/laravel-subscriptions/actions/workflows/run-tests.yml)
-[![Check & fix styling](https://github.com/soap/laravel-subscriptions/actions/workflows/php-cs-fixer.yml/badge.svg)](https://github.com/soap/laravel-subscriptions/actions/workflows/php-cs-fixer.yml)
-[![Total Downloads](https://img.shields.io/packagist/dt/soap/laravel-subscriptions.svg?style=flat-square)](https://packagist.org/packages/soap/laravel-subscriptions)
 
 Soap Laravel Subscriptions is a flexible plans and subscription management system for Laravel, with the required tools to run your SAAS like services efficiently. It's simple architecture, accompanied by powerful underlying to afford solid platform for your business.
 
@@ -19,20 +13,7 @@ Soap Laravel Subscriptions is a flexible plans and subscription management syste
 
 
 
-## Installation
 
-You can install the package via composer:
-
-```bash
-composer require soap/laravel-subscriptions
-```
-
-You can publish and run the migrations with:
-
-```bash
-php artisan vendor:publish --tag="subscriptions-migrations"
-php artisan migrate
-```
 
 You can publish the config file with:
 
@@ -72,35 +53,3 @@ return [
 ];
 ```
 
-## Usage
-
-```php
-
-```
-
-## Testing
-
-```bash
-composer test
-```
-
-## Changelog
-
-Please see [CHANGELOG](CHANGELOG.md) for more information on what has changed recently.
-
-## Contributing
-
-Please see [CONTRIBUTING](https://github.com/spatie/.github/blob/main/CONTRIBUTING.md) for details.
-
-## Security Vulnerabilities
-
-Please review [our security policy](../../security/policy) on how to report security vulnerabilities.
-
-## Credits
-- Rinvex for their excellent package, laravel-subscriptions (code base for this package)
-- [Prasit Gebsaap](https://github.com/soap)
-- [All Contributors](../../contributors)
-
-## License
-
-The MIT License (MIT). Please see [License File](LICENSE.md) for more information.
